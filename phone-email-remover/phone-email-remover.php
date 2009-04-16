@@ -129,9 +129,9 @@ function dynamick_replace($content)
     return $cc;
 }
 
-add_filter('the_content', 'dynamick_replace');
-add_filter('the_excerpt', 'dynamick_replace');
-#add_filter('comment_text', 'dynamick_replace');
+#add_filter('the_content', 'dynamick_replace');
+#add_filter('the_excerpt', 'dynamick_replace');
+add_filter('comment_text', 'dynamick_replace');
 #add_filter('author_email', 'dynamick_replace');
 #add_filter('comment_email', 'dynamick_replace');
 
