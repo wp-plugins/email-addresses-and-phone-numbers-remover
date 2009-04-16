@@ -1,0 +1,20 @@
+Version 1.0
+===========
+* Fixed major bug where eMob didn't play nicely with other plugins that
+  automatically create a link from email addresses. Also, plays better when
+  the email address is given inside an HTML tag, such as <a 
+  href="mailto:...">.
+  
+* Automatically creates a mailto: hyperlink from the email address using a
+  format that is less likely to be picked up by spambots.
+  
+* Total rewrite of the plugin to make it more modular and less code-wieldy.
+
+Version 0.2
+===========
+* Fixed typo with HTML tag. Should be <abbr> instead of <addr>
+
+
+Version 0.1
+===========
+* Initial version
